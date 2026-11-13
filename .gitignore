@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Env files (secrets) — only the examples are committed
+.env*
+!.env.example
+
+# Build output
+.next/
+dist/
+*.tsbuildinfo
+
+# Local data (raw webhook payloads etc. — contains customer data)
+.data/
+
+# Tests / logs
+coverage/
+*.log
+
+# Vercel CLI
+.vercel/
+
+# OS files
+.DS_Store
+Thumbs.db
